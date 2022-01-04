@@ -15,6 +15,8 @@ sklearn
 pickle
 
 numpy
+
+colorama
 # Unrequired libraries for audio/color
 gtts
 
@@ -22,5 +24,4 @@ playsound
 
 speech_recognition
 
-colorama
 # WARNING: This program does not work for 3.10; it is recommended to use 3.9.6
