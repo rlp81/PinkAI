@@ -22,6 +22,6 @@ gtts
 
 playsound
 
-speech_recognition
+SpeechRecognition
 
 # WARNING: This program does not work for 3.10; it is recommended to use 3.9.6
