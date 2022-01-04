@@ -1,7 +1,7 @@
 {"intents": [
     {"tag": "greeting",
      "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
-     "responses": ["Hello", "Hi", "Hi there"]
+     "responses": ["Hello,", "Hi,", "Hi there,", "Hello,", "Hey there,"]
     },
     {"tag": "goodbye",
      "patterns": ["Bye", "See you later", "Goodbye"],
@@ -32,15 +32,15 @@
     "responses": ["I see..", "Cool.", "I don't give a shit.", "Pfft, you wish", "Nah, loser."]
     },
     {"tag": "how",
-    "patterns": ["How are you?", "How are you doing?"],
+    "patterns": ["how are you?", "how are you doing?", "how you doin", "how you doing?","how are you"],
     "responses": ["I'm doing good.", "I'm fine.", "I'm doing good, how are you?."]
     },
     {"tag": "userfeel",
-    "patterns": ["I'm fine.", "I'm doing okay."],
+    "patterns": ["i'm fine.", "i'm doing okay."],
     "responses": ["That's good!", "That's good to hear!", "That's nice."]
     },
     {"tag": "suck",
-    "patterns": ["You suck", "Fuck you", "You piece of shit"],
+    "patterns": ["you suck", "fuck you", "you piece of shit"],
     "responses": ["How rude.", "Shut up you lazy bitch!", "Your.. MOTHER!"]
     },
     {"tag": "sus",
@@ -52,7 +52,23 @@
     "responses": ["NOOOO", "I'm not stinky!", "Shut up! :sob:"]
     },
     {"tag": "shut",
-    "patterns": ["Shut up", "Shut the hell up", "be quiet", "shut the fucing hell up"],
+    "patterns": ["shut up", "shut the hell up", "be quiet", "shut the fucing hell up"],
     "responses": ["no u", ":sob:", "NO YOU SHUT UP"]
+    },
+    {"tag": "bruh",
+    "patterns": ["bruh", "bro", "bro what", "bru","damn"],
+    "responses": ["get noobed", "bruh", "hehe"]
+    },
+    {"tag": "space",
+    "patterns": [" ", ""],
+    "responses": ["Uhh what?", "You forgot to speak lol", "Mute loser"]
+    },
+    {"tag": "lol",
+    "patterns": ["lol", "lmao", "haha"],
+    "responses": ["LOL", "Pfft", "hahahaha", "Lmao"]
+    },
+    {"tag": "paradox",
+    "patterns": ["this sentence is false", "yes but actually no"],
+    "responses": ["ERRORRRRRR", "fjsl;kjdsad", "RRR", "Critical Error"]
     }
 ]}
