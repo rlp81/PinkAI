@@ -9,7 +9,8 @@ from audio import playaudio
 from colorama import Fore, Style, Back
 import random
 import pickle
-
+class AIinfo:
+    username = None
 with open("intents.json") as file:
     data = json.load(file)
 def getvoice(res):
@@ -43,9 +44,14 @@ def chat():
         tag = lbl_encoder.inverse_transform([np.argmax(result)])
         for i in data['intents']:
             if i['tag'] == tag:
-                resp = np.random.choice(i['responses'])
+                #resp = np.random.choice(i['responses'])
                 respp = random.choice(i['responses'])
-                #print(Fore.LIGHTMAGENTA_EX + "Pink:" + Style.RESET_ALL , resp)
+                if i["tag"] == "greeting":
+                    if AIinfo.username == None:
+                        respp = respp[:-1]
+                    else:
+                        respp = respp+f" {AIinfo.username}"
+                #print(Fore.LIGHTMAGENTA_EX + "Pink:" + Style.RESET_ALL , respp)
                 print(Fore.LIGHTMAGENTA_EX + "Pink:" + Style.RESET_ALL,respp)
                 #getvoice(respp)
 
