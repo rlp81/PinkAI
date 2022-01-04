@@ -5,7 +5,7 @@ from tensorflow import keras
 #import gtts
 import colorama 
 colorama.init()
-#from audio import playaudio
+from audio import playaudio
 from colorama import Fore, Style, Back
 import random
 import pickle
@@ -32,6 +32,8 @@ def chat():
         lbl_encoder = pickle.load(enc)
     max_len = 20
     while True:
+        #inp = gettext()
+        #print(Fore.LIGHTBLUE_EX + f"User: {inp}\n" + Style.RESET_ALL, end="")
         print(Fore.LIGHTBLUE_EX + f"User: " + Style.RESET_ALL, end="")
         inp = input()
         if inp.lower() == "quit":
@@ -42,7 +44,10 @@ def chat():
         for i in data['intents']:
             if i['tag'] == tag:
                 resp = np.random.choice(i['responses'])
+                respp = random.choice(i['responses'])
                 #print(Fore.LIGHTMAGENTA_EX + "Pink:" + Style.RESET_ALL , resp)
-                print(Fore.LIGHTMAGENTA_EX + "Pink:" + Style.RESET_ALL,random.choice(i['responses']))
+                print(Fore.LIGHTMAGENTA_EX + "Pink:" + Style.RESET_ALL,respp)
+                #getvoice(respp)
+
 print(Fore.YELLOW + "Start messaging with the bot (type quit to stop)!" + Style.RESET_ALL)
 chat()
