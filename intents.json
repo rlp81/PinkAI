@@ -68,7 +68,15 @@
     "responses": ["LOL", "Pfft", "hahahaha", "Lmao"]
     },
     {"tag": "paradox",
-    "patterns": ["this sentence is false", "yes but actually no"],
+    "patterns": ["i will kill you to death","i'm going to kill you to death", "this sentence is false", "yes but actually no"],
     "responses": ["ERRORRRRRR", "fjsl;kjdsad", "RRR", "Critical Error"]
+    },
+    {"tag": "age",
+    "patterns": ["how old are you","what's your age", "age", "how long since birth"],
+    "responses": ["I'm 14.", "I'm 14 years old.", "I'm fourteen years old.","I'm 14, how did you not know :sob:","im 14 smfh, you fucking dumbass","YOU MOTHER FUCKING BIRETUUDHFKLJDFJJ I'M 14"]
+    },
+    {"tag": "birthday",
+    "patterns": ["what's your birthday","when were you born", "birth","when did exist"],
+    "responses": ["I was born on the 4th of April in, 2007.","4-4-07","April 4th, 2007."]
     }
 ]}
