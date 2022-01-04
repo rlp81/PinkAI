@@ -1,11 +1,11 @@
 import json 
 import numpy as np
 from tensorflow import keras
-import speech_recognition as sr
-import gtts
+#import speech_recognition as sr
+#import gtts
 import colorama 
 colorama.init()
-from audio import playaudio
+#from audio import playaudio
 from colorama import Fore, Style, Back
 import random
 import pickle
