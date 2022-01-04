@@ -1,0 +1,58 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I'm Pinky, you can just call me Pink.", "I'm Pink, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Pink.", "I'm Pink!", "Just refer to me as Pink.", "I'm Pink, what's your name?", "My name's Pinky, and you?"]
+    },
+    {"tag": "username",
+    "patterns": ["I'm Coal.", "My name is Coal.", "Just call me Coal."],
+    "responses": ["Nice to meet you, Coal!", "Nice to meet you.", "Hello, Coal.", "Coal's a good name.", "That's a cool name!"]
+    },
+    {"tag": "wow",
+    "patterns": ["wow", "whoa", "woah", "that's cool!", "That's amazing!", "amazing"],
+    "responses": ["It's cool right?", "I know!", "You took the words right out of my mouth.", "It is quite amazing.", "I'm amazed as well."]
+    },
+    {"tag": "love",
+    "patterns": ["I love you!", "I like you, a lot.", "You're cute.", "I like you."],
+    "responses": ["I see..", "Cool.", "I don't give a shit.", "Pfft, you wish", "Nah, loser."]
+    },
+    {"tag": "how",
+    "patterns": ["How are you?", "How are you doing?"],
+    "responses": ["I'm doing good.", "I'm fine.", "I'm doing good, how are you?."]
+    },
+    {"tag": "userfeel",
+    "patterns": ["I'm fine.", "I'm doing okay."],
+    "responses": ["That's good!", "That's good to hear!", "That's nice."]
+    },
+    {"tag": "suck",
+    "patterns": ["You suck", "Fuck you", "You piece of shit"],
+    "responses": ["How rude.", "Shut up you lazy bitch!", "Your.. MOTHER!"]
+    },
+    {"tag": "sus",
+    "patterns": ["sus", "your sus", "sussy wussy", "sussy"],
+    "responses": [":smirk:", "Hehe", "sussy wussy tee hee"]
+    },
+    {"tag": "stink",
+    "patterns": ["stinky", "stink", "stinky pinky", "pinky stinky"],
+    "responses": ["NOOOO", "I'm not stinky!", "Shut up! :sob:"]
+    },
+    {"tag": "shut",
+    "patterns": ["Shut up", "Shut the hell up", "be quiet", "shut the fucing hell up"],
+    "responses": ["no u", ":sob:", "NO YOU SHUT UP"]
+    }
+]}
