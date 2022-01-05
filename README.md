@@ -23,6 +23,10 @@ or copy the repository with git: `git clone https://github.com/rlp81/PinkAI/`
 Once downloaded run the training.py, or edit the intents to your liking.
 
 # Running the program
+run the setup.py to install needed libraries.
+
+`python setup.py` or `py -3.9 setup.py`
+
 `python training.py` or `py -3.9 training,py`
 
 `python AI.py` or `py -3.9 AI.py`
