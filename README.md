@@ -7,6 +7,17 @@ Download the zip file and start the training.py,
 or copy the repository with git: `git clone https://github.com/rlp81/PinkAI/`
 
 Once downloaded run the training.py, or edit the intents to your liking.
+
+# Installing python
+If you have a 32-bit computer click [here](https://www.python.org/ftp/python/3.9.7/python-3.9.7.exe)
+
+If you have a 64-bit computer click [here](https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe)
+
+Once opened make sure to check **Add to path**, and proceed with the regular installation.
+# Running the program
+`python training.py` or `py -3.9 training,py`
+
+`python AI.py` or `py -3.9 AI.py`
 # Required libraries
 tensorflow
 
