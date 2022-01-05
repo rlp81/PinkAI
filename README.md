@@ -36,7 +36,7 @@ pickle
 numpy
 
 colorama
-# Unrequired libraries for audio/color
+# Unrequired libraries for audio
 gtts
 
 playsound
