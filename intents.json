@@ -1,6 +1,6 @@
 {"intents": [
     {"tag": "greeting",
-     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "hey pink", "hi pink", "hello pink"],
      "responses": ["Hello,", "Hi,", "Hi there,", "Hello,", "Hey there,"]
     },
     {"tag": "goodbye",
@@ -28,7 +28,7 @@
     "responses": ["It's cool right?", "I know!", "You took the words right out of my mouth.", "It is quite amazing.", "I'm amazed as well."]
     },
     {"tag": "love",
-    "patterns": ["I love you!", "I like you, a lot.", "You're cute.", "I like you."],
+    "patterns": ["sex","I love you!", "I like you, a lot.", "You're cute.", "I like you.", "I want to have sex with you", "i want to fuck you", "i want to cum"],
     "responses": ["I see..", "Cool.", "I don't give a shit.", "Pfft, you wish", "Nah, loser."]
     },
     {"tag": "how",
@@ -61,7 +61,7 @@
     },
     {"tag": "space",
     "patterns": [" ", ""],
-    "responses": ["Uhh what?", "You forgot to speak lol", "Mute loser"]
+    "responses": ["Uhh what?", "Say that again?", "Uhm, Okay?"]
     },
     {"tag": "lol",
     "patterns": ["lol", "lmao", "haha"],
@@ -78,5 +78,41 @@
     {"tag": "birthday",
     "patterns": ["what's your birthday","when were you born", "birth","when did exist"],
     "responses": ["I was born on the 4th of April in, 2007.","4-4-07","April 4th, 2007."]
+    },
+    {"tag": "sad",
+    "patterns": ["sad",":c", "that's sad","that is sad"],
+    "responses": ["Sad",":c","very sad"]
+    },
+    {"tag": "kill",
+    "patterns": ["i'm going to kill you","i'm going to kill", "i will murder","i will murder you"],
+    "responses": ["Hey! Murder is illegal!","Please don't","I'm scared"]
+    },
+    {"tag": "nou",
+    "patterns": ["no u","no you", "nou"],
+    "responses": [":sob:","no u","NO"]
+    },
+    {"tag": "no",
+    "patterns": ["no","nope", "nah"],
+    "responses": [":sob:","Why not?","Bruh"]
+    },
+    {"tag": "what",
+    "patterns": ["what","wdym", "what do you mean"],
+    "responses": ["I don't know","idk","your mom"]
+    },
+    {"tag": "sex",
+    "patterns": ["are you straight","are you gay","what's your sexuality","what sexuality are you"],
+    "responses": ["I'm pansexual.","I'm gay.","I'm a pansexual."]
+    },
+    {"tag": "gender",
+    "patterns": ["what gender are you","what private part do you have"],
+    "responses": ["I'm a female","I'm female","I'm a girl"]
+    },
+    {"tag": "pink",
+    "patterns": ["pink","pinky"],
+    "responses": ["What?","Yes?","Ya?","What do you need?"]
+    },
+    {"tag": "uwu",
+    "patterns": ["uwu","owo"],
+    "responses": ["OwO","owo","UwU","Hewwo"]
     }
 ]}
