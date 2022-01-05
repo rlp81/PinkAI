@@ -19,6 +19,11 @@ with open('label_encoder.pickle', 'rb') as enc:
     lbl_encoder = pickle.load(enc)
 max_len = 20
 
+@bot.command(name="quit")
+async def quit(context):
+    if context.author.id == owner:
+        quit()
+
 @bot.command(name="info")
 async def info(context):
     emb = discord.Embed(title="PinkAI info",description=f"All code for the bot can be found in the [github](https://github.com/rlp81/PinkAI)\nI was created by rlp81 (Coal#3591) for a friend named Pink hense the name.")
