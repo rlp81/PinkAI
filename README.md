@@ -1,3 +1,5 @@
+# WARNING: This program does not work for 3.10; it is recommended to use 3.9.6
+
 # PinkAI
 PinkAI was created by rlp81
 # Installation
@@ -34,5 +36,3 @@ gtts
 playsound
 
 SpeechRecognition
-
-# WARNING: This program does not work for 3.10; it is recommended to use 3.9.6
