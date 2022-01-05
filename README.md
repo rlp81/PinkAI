@@ -1,7 +1,11 @@
 # WARNING: This program does not work for 3.10; it is recommended to use 3.9.6
 
 # PinkAI
-PinkAI was created by rlp81
+PinkAI was created by rlp81.
+
+It was created for a friend named "Pink" or "Pinky" hence the name. If you do use this code, I would enjoy credit, but otherwise have fun and a good learning experience!
+
+If you have any questions you can contact me via discord: Coal#3591 Please state that you're there for support otherwise within a few days I will ignore your request.
 # Installation
 
 Download the zip file and start the training.py,
